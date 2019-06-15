@@ -1,8 +1,11 @@
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+
 }
 
+.card__header {
+  text-transform: uppercase;
+  margin: 10%;
+}
 .container {
   height: 90vh;
   margin: 2rem;
@@ -30,8 +33,13 @@ body {
 }
 
 h2 {
-  font-size: 20px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 600;
+	font-feature-settings: "tnum" on;
+	font-variant-numeric: tabular-nums;
 }
+
 
 h3 {
   font-size: 18px;
